@@ -1,12 +1,25 @@
+html{
+	background-color: #FAE7C9;
+}
+
 ol {
 	margin-left: -40px;
 	margin-top: -20px;
 	list-style-position: inside;
 }
+
 *{
     text-align: center;
 }
 
 li{
     text-align: center;
+}
+
+div{
+	border: 3px solid black;
+}
+
+img{
+	margin: 20px;
 }
