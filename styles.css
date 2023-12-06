@@ -36,3 +36,11 @@ img{
 footer{
 	clear: left;
 }
+
+@media (max-width: 600px) {
+	/* CSS for screens below or equal to 600px wide */
+	img {
+		height: 50%;
+		width: 50%;
+	}
+}
