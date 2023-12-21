@@ -3,6 +3,11 @@ html{
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
+body{
+	display: flex;
+	flex-direction: column;
+}
+
 #about-me{
 	border: solid white 3px;
 	border-radius: 50%;
@@ -30,17 +35,23 @@ li{
 img{
 	position: static;
 	margin: 10%px;
-	float: left;
+	float: left; 
+	border-radius: 20px 0 20px 0;
 }
 
 footer{
 	clear: left;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
 	/* CSS for screens below or equal to 600px wide */
 	img {
-		height: 50%;
-		width: 50%;
+		width: 70%;
+		object-fit: cover;
+	}
+
+	p{
+		text-align: justify;
+		clear: both;
 	}
 }
